@@ -17,7 +17,7 @@ class CalculatorTest(unittest.TestCase):
 
     def test_add(self):
         value = self.calc.add(NUMBER_1, NUMBER_2)
-        self.assertEqual(value, 5.0, FAILURE)
+        self.assertEqual(value, 6.0, FAILURE)
         self.assertEqual(value, self.calc.last_answer, FAILURE)
 
     def test_subtract(self):
